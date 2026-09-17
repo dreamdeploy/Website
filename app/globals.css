@@ -1,0 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Sora:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;font-size:15.5px;line-height:1.7;letter-spacing:-0.01em;background:#FFFEFB;color:#121214;-webkit-font-smoothing:antialiased}
+.font-display{font-family:'Instrument Serif',serif;font-weight:500;letter-spacing:-0.02em;line-height:0.98}
+.font-display-em{font-family:'Instrument Serif',serif;font-style:italic;font-weight:500;letter-spacing:-0.02em;line-height:0.98}
+.font-creative{font-family:'Sora',sans-serif;font-weight:600;letter-spacing:-0.015em;line-height:1.25;font-size:19px}
+.font-sans2{font-family:'Inter',sans-serif;letter-spacing:-0.01em}
+::-webkit-scrollbar{width:6px;height:6px}
+::-webkit-scrollbar-thumb{background:#ddd;border-radius:999px}
